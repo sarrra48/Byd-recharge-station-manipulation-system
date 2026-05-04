@@ -1,0 +1,31 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: postgres
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/firstRealm
+
+  # ── Email (SMTP) ────────────────────────────────────────────────────────────
+  mail:
+    host: smtp.gmail.com        # change to your SMTP host
+    port: 587
+    username: sarragharbi222@gmail.com
+    password: esav lrkf loff bpyy  # use an App Password, not your real password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
