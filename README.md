@@ -14,5 +14,5 @@ to run keycloak;
                                       
 to run the frontend;
   open the terminal inside the frontend folder then type:
-                                      npm install
+                                      npm install  
                                       npm run dev
