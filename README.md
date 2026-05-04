@@ -7,9 +7,11 @@ To run the hole project you will need to run keycloak, the backend and finally t
 to run the backend;
   open the terminal inside the demo file then type:
                                       nvm spring-boot:run
+                                      
 to run keycloak;
   open the terminal inside the keycloak file then type:
                                       bin/kc.sh start-dev
+                                      
 to run the frontend;
   open the terminal inside the frontend folder then type:
                                       npm install
